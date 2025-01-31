@@ -1,2 +1,2 @@
-abhisena-cygnus.web.id
+www.abhisena-cygnus.web.id
 
