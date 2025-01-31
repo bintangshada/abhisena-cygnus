@@ -1,6 +1,27 @@
+:root{
+    --color-primary: #89CFF0;
+    --background-color-dark: #00008B;
+}
+
+body{
+    background-color: var(--color-primary);
+}
+
 .container {
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: var(--background-color-dark);
+}
+.container button{
+    font-weight: 500;
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    box-shadow: 10px antiquewhite;
+    border-radius: 1rem;
+}
+.container button:hover{
+    background-color: red;
 }
