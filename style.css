@@ -12,6 +12,7 @@ html{
 
 
 body{
+   
     background-color: var(--color-primary);
     /* scroll-behavior: smooth; */
 }
@@ -26,9 +27,20 @@ body{
 
 
 .nav {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
     background: var(--color-dark);
 }
 
 .nav-link{
     color: var(--color-white);
+}
+
+.cards{
+    margin:0 0 0 0 ;
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
 }
